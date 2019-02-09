@@ -20,4 +20,4 @@ Use **BeginTiming** and **EndTiming** to wrap sections of code you want to measu
 
 Our version of this uses our own logger that has various reporting types and level  - I've replaced those calls with Debug.Log, but if you have something more sophisticated you may want to replace those with your own logging system.
 
-The PersistentProfiler uses milliseconds and it's basis for measurement. If you want to profile very small fast sections of code you can swap **ElapsedMilliseconds** to **ElapsedTicks**. 
+The PersistentProfiler uses milliseconds and it's basis for measurement. If you want to profile very small fast sections of code you can swap **ElapsedMilliseconds** to **ElapsedTicks**.  
